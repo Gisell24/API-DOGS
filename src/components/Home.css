@@ -1,0 +1,32 @@
+body {
+  background-image: url("./img/golde2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contenedor {
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 500px);
+
+  padding: 200px;
+  justify-content: center;
+  transition: margin-left 0.3s 0.1s;
+  color: white;
+}
+
+.img {
+  width: 350px;
+  height: 280px;
+}
+
+.create_button {
+  font-size: 30px;
+  color: rgb(246, 242, 242);
+  box-shadow: 5px 5px 15px 5px rgba(86, 4, 4, 0.5);
+  transition: all 0.5s ease-in-out;
+}

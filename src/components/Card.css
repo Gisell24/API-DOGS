@@ -1,0 +1,144 @@
+.fondo {
+}
+
+.container {
+  /* border: 2px solid rgb(93, 17, 17);
+  border-radius: 10px;
+  margin-bottom: 10%;
+  margin-left: 15px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(198, 15, 15, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(86, 4, 4, 0.5);
+  transition: all 0.5s ease-in-out; */
+  /* width: fit-content; */
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+
+  /* display: table-cell; */
+  max-width: 960px;
+  display: inline;
+}
+
+.card_image {
+  border-radius: 10px;
+  position: relative;
+
+  width: 350px;
+  height: 270px;
+  background-color: transparent;
+  opacity: 0.9;
+  display: ruby;
+
+  justify-content: center;
+}
+
+.card_image:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.temp {
+  color: rgb(235, 235, 217);
+  font-size: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  width: 180px;
+  margin-left: 155px;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #212121;
+  font-family: sans-serif;
+}
+.fondo {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 15px;
+  margin: 0 auto;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.card:before,
+.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover:before {
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.card:hover:after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.card .imgBx {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.card:hover .imgBx {
+  bottom: 80px;
+}
+
+.card .card_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .fondo {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.card .fondo h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #777;
+  text-transform: uppercase;
+}
+
+.card .details h5 span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: 5px;
+} */

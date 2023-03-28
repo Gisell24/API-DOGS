@@ -1,0 +1,25 @@
+.titulo {
+  font-size: 80px;
+  color: floralwhite;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(198, 15, 15, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(86, 4, 4, 0.5);
+  border: 2px solid rgb(93, 17, 17);
+  border-radius: 10px;
+  display: table-cell;
+  position: relative;
+  left: 350px;
+}
+
+.ingresar {
+  width: 120px;
+  height: 70px;
+  font-size: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 265px;
+}
+
+.ingresar:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

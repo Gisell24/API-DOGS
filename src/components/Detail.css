@@ -1,0 +1,24 @@
+.fondo_3 {
+  color: rgb(240, 223, 223);
+}
+
+.image_detail {
+  width: 500px;
+  height: 400px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(95, 23, 23, 0.5);
+  box-shadow: 5px 5px 15px 5px rgba(241, 233, 233, 0.5);
+  border: 2px solid rgb(93, 17, 17);
+  border-radius: 10px;
+}
+
+.name {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.tempe {
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  color: rgb(15, 15, 19);
+}
